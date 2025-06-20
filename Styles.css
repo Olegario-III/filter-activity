@@ -1,1 +1,37 @@
 
+  body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    padding: 40px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+
+  h2 {
+    color: #34495e;
+    margin-top: 30px;
+  }
+
+  #result-passed,
+  #result-failed {
+    background-color: #fff;
+    border-left: 6px solid #4CAF50;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 6px;
+  }
+
+  #result-failed {
+    border-left-color: #e74c3c;
+  }
+
+  br {
+    display: block;
+    margin-bottom: 10px;
+  }
